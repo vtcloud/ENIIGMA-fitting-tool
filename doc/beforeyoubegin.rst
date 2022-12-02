@@ -44,3 +44,4 @@ The ENIIGMA code can also be installed from GitHub:
 	$cd ENIIGMA-code
 	$python setup.py install
 	$python setup.py install --user (for non-root privilegies)
+	

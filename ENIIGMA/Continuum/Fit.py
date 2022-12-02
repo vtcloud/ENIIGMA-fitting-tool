@@ -28,7 +28,8 @@ def BB_func(lam, pars):
         The x axis used in the sepctral decomposition. E.g. the wavelenght.
 
     pars : 'numpy.ndarray'
-        Two parameters used in the blackbody function. They are the temperature T and the scaling factor C. E.g. [T, C].
+        Two parameters used in the blackbody function. They are the temperature T and 
+        the scaling factor C. E.g. [T, C].
 
     Returns
     -------------
@@ -54,7 +55,8 @@ def one_BB(lam, *pars):
         The x axis used in the sepctral decomposition. E.g. the wavelenght.
 
     pars : 'numpy.ndarray'
-        Two parameters used in the blackbody function. They are the temperature T and the scaling factor C. E.g. [T, C].
+        Two parameters used in the blackbody function. They are the temperature T and 
+        the scaling factor C. E.g. [T, C].
 
     Returns
     -------------
@@ -555,3 +557,4 @@ def Continuum_BB(filename, xmin, xmax, range_limits=None, guess = (500, 1e-18, 2
         count = count+1
 
     plt.savefig('Continuum_'+name.split('.')[0]+'.pdf',format='pdf', bbox_inches='tight', dpi=300)
+    
